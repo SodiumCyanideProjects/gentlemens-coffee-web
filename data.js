@@ -10,7 +10,7 @@ const websiteData = {
     	"MOBILE COFFEE BAR • EST. 2026",
 
         slogan:
-        "Gentlemanská mobilní kavárna",
+        "GENTLEMANSKÁ MOBILNÍ KAVÁRNA",
 
         heroText:
         "Kavárna, co přijede přímo za vámi",
