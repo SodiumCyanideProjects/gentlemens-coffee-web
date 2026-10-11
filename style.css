@@ -1208,7 +1208,13 @@ to {
 }
 
 .concept-notice {
-    display: flex;
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: relative;
+    z-index: 9999;
+    width: 100%;
+    box-sizing: border-box;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
