@@ -138,11 +138,11 @@ const websiteData = {
 
 
         phone:
-        "+420 777 123 456",
+        "+420 000 000 000",
 
 
         email:
-        "info@gentlemenscoffee.cz",
+        "email zatím nepřidán",
 
 
         footer:
