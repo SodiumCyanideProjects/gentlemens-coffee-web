@@ -38,7 +38,9 @@ a {
     visibility: visible;
     opacity: 1;
     position: relative;
-    z-index: 9999;
+    flex: 0 0 auto;
+    order: 0;
+    z-index: 1;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -76,47 +78,21 @@ header {
     align-items: stretch;
 }
 
-.concept-notice {
-    order: 0;
-    position: relative;
-    flex: 0 0 auto;
-    width: 100%;
-    z-index: 1;
-}
-
 nav {
     order: 1;
     position: relative;
     flex: 0 0 auto;
     width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding: 12px 70px;
+    min-height: 80px;
+    background: #38251b;
 }
-
-
-@media (min-width: 901px) {
-    nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        gap: 24px;
-        padding: 12px 70px;
-        min-height: 80px;
-        background: #38251b;
-    }
-
-    .logo-container {
-        text-align: left;
-        flex-shrink: 0;
-    }
-
-    .menu {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 40px;
-    }
-}
-
 
 .logo-container {
     text-align: left;
