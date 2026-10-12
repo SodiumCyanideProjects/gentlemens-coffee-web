@@ -435,10 +435,11 @@ h2 {
 .contact-item {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 16px;
-    width: 100%;
-    max-width: 425px;
-    margin: 5px 0;
+    width: fit-content;
+    max-width: 100%;
+    margin: 5px auto;
     text-align: left;
     min-width: 0;
     box-sizing: border-box;
