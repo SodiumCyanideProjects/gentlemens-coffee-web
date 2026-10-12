@@ -376,7 +376,7 @@ h2 {
 }
 
 .service-card {
-    background:  #38251b;
+    background: #38251b;
     color: white;
     padding: 40px 30px;
     border-radius: 20px;
@@ -410,12 +410,16 @@ h2 {
 
 .contact {
     text-align: center;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .contact-box {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    box-sizing: border-box;
     font-size: 20px;
     line-height: 1.9;
     min-width: 0;
@@ -423,16 +427,19 @@ h2 {
 
 .contact-box > p {
     max-width: 100%;
+    box-sizing: border-box;
 }
 
 .contact-item {
     display: flex;
     align-items: center;
-    gap: 30px;
-    width: min(425px, 100%);
+    gap: 16px;
+    width: 100%;
+    max-width: 425px;
     margin: 5px 0;
     text-align: left;
     min-width: 0;
+    box-sizing: border-box;
 }
 
 .contact-item img {
@@ -866,42 +873,6 @@ footer::before {
     .service-card p {
         font-size: 14px;
         line-height: 1.8;
-    }
-
-    /* Kontakt */
-
-    .contact-box {
-        width: 100%;
-        font-size: 15px;
-        line-height: 1.8;
-    }
-
-    .contact-item {
-        width: 100%;
-        max-width: 360px;
-        gap: 14px;
-        margin: 8px 0;
-    }
-
-    .contact-item img {
-        width: 21px;
-        height: 21px;
-    }
-
-    .contact-item span {
-        font-size: 14px;
-    }
-
-    /* Patička */
-
-    footer {
-        padding: 65px 18px 25px;
-        font-size: 11px;
-        line-height: 1.8;
-    }
-
-    footer::before {
-        height: 40px;
     }
 
     /* Na mobilu bez zbytečných animací hoveru */
