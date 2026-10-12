@@ -418,10 +418,9 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto;
     font-size: 20px;
     line-height: 1.9;
     min-width: 0;
@@ -435,8 +434,8 @@ h2 {
 .contact-item {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 16px;
+    justify-content: flex-start;
+    gap: 12px;
     width: fit-content;
     max-width: 100%;
     margin: 5px auto;
