@@ -70,17 +70,25 @@ header {
     left: 0;
     width: 100%;
     z-index: 1000;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.concept-notice {
+    order: 0;
+    position: relative;
+    flex: 0 0 auto;
+    width: 100%;
+    z-index: 1;
 }
 
 nav {
+    order: 1;
+    position: relative;
+    flex: 0 0 auto;
     width: 100%;
-    min-height: 80px;
-    background:  #38251b;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 24px;
-    padding: 12px 70px;
 }
 
 .logo-container {
